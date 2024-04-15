@@ -1,0 +1,157 @@
+@media only screen and (max-width: 600px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .prof-pic {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  .text-container {
+    text-align: center;
+  }
+  .text {
+    padding: 20px;
+  }
+  .personal-info-tag {
+    width: 100%;
+  }
+  .professional {
+    text-align: center;
+  }
+  .languages {
+    padding: 0 20px;
+  }
+  .idioms {
+    padding: 0 20px;
+  }
+  .contacs {
+    padding: 0 20px;
+  }
+  .goal {
+    padding: 0 20px;
+  }
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 200;
+  font-style: normal;
+  background-color: white;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  height: 1px; 
+  color: #333; 
+  background-color: #333;
+  margin: 10px 10px;
+ }
+
+ .professional {
+  margin: 50px;
+  text-align: center;
+ }
+.div-line {
+  border: 1px solid black;
+  height: 1040px;
+  margin: 10px 20px;
+}
+.container {
+    display: flex;
+  }
+
+  .personal-info-tag {
+    flex: 0 0 30%;
+    justify-content: left;
+    height: 80%;
+    width: 10%;
+  }
+  .presentation {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+  }
+  .presentation .prof-pic {
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+    transition: transform 0.5s ease;
+  }
+  .presentation .prof-pic:hover {
+    transform: rotate3d(0, 1, 0, 3.142rad); 
+    transition-duration: 2s;
+  } 
+  .text {
+    flex: 1;
+    font-size: 65px;
+  }
+  .prof-cot {
+    flex: 0 0 30%;
+
+  }
+  .personal-info-text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .prof-pic {
+    padding: 14px;
+  }
+
+  .contacs {
+    text-align: center;
+  }
+
+  .goal{
+    text-align: center;
+  }
+
+  .idioms {
+    text-align: center;
+  }
+  .languages li {
+    text-align: center;
+  }
+  
+  ul {
+    display: block;
+    border-bottom: none;
+  }
+
+li {
+  margin: 10px -24px;
+  list-style-type: none;
+  border-style: none;
+}
+a {
+  text-decoration: none;
+
+}
+
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.no-decoration-facebook:hover {
+  font-size: 32px;
+  color: purple;
+  background-color: blue;
+  transition: 2s;
+}
+
+.no-decoration-gitHub:hover {
+  font-size: 32px;
+  color: purple;
+  background-color: #24292F;
+  transition: 2s;
+}
+
+.no-decoration-x:hover {
+
+}
